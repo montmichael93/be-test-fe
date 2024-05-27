@@ -1,6 +1,6 @@
 import { UserInputDTO } from "./inputTypes";
 
-const baseUrl = "https://be-testing-be.vercel.app/";
+const baseUrl = "https://be-testing-be.vercel.app";
 
 const getAllUsers = () =>
   fetch(`${baseUrl}/users`).then((response) => response.json());
